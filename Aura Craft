@@ -1,0 +1,1096 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))() 
+
+local Window = OrionLib:MakeWindow({Name = "N Vip Aura craft ", HidePremium = false,IntroText = "hey!", SaveConfig = true, ConfigFolder = "scripts"}) --intro y nombre de inicio pero no cambiar lo demas
+
+--inicio ajustes Tab
+
+OrionLib:MakeNotification({
+	Name = "Hello!!",
+	Content = "Owner scripts!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+local Tab = Window:MakeTab({
+	Name = "Auras",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "if you want the auras in the inv just rejoin to get them" 
+})
+
+--botones Tab
+
+Tab:AddButton({
+	Name = "black hole",
+	Callback = function()
+       	local args = {
+    [1] = "black hole",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "black hole",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "black hole",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "awesome",
+	Callback = function()
+       	local args = {
+    [1] = "awesome",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "awesome",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "awesome",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "tacos",
+	Callback = function()
+       	local args = {
+    [1] = "tacos",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "tacos",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "tacos",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "supreme",
+	Callback = function()
+       	local args = {
+    [1] = "supreme",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "supreme",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "supreme",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "phonk",
+	Callback = function()
+       	local args = {
+    [1] = "phonk",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "phonk",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "phonk",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "giga",
+	Callback = function()
+       	local args = {
+    [1] = "giga",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "giga",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "giga",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "mlg",
+	Callback = function()
+       	local args = {
+    [1] = "mlg",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "mlg",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "mlg",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "boss",
+	Callback = function()
+       	local args = {
+    [1] = "boss",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "boss",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "boss",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "dubstep",
+	Callback = function()
+       	local args = {
+    [1] = "dubstep",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "dubstep",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "dubstep",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "harmony",
+	Callback = function()
+       	local args = {
+    [1] = "harmony",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "harmony",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "harmony",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "synthwave",
+	Callback = function()
+       	local args = {
+    [1] = "synthwave",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "synthwave",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "synthwave",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "rhythm",
+	Callback = function()
+       	local args = {
+    [1] = "rhythm",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "rhythm",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "rhythm",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "crab",
+	Callback = function()
+       	local args = {
+    [1] = "crab",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "crab",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "crab",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "troll",
+	Callback = function()
+       	local args = {
+    [1] = "troll",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "troll",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "troll",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "pulse",
+	Callback = function()
+       	local args = {
+    [1] = "pulse",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "pulse",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "pulse",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "disco",
+	Callback = function()
+       	local args = {
+    [1] = "disco",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "disco",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "disco",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+--ajustes TutTab
+
+
+local TutTab = Window:MakeTab({
+	Name = "Vip Auras",--nombre de sección de  
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = TutTab:AddSection({
+	Name = "Vip" --nombre de la sección 
+})
+
+--botones TutTab
+
+
+TutTab:AddButton({
+	Name = "Vip",
+	Callback = function()
+       	local args = {
+    [1] = "vip",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "vip",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "vip",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+TutTab:AddButton({
+	Name = "Crimson king",
+	Callback = function()
+       	local args = {
+    [1] = "crimson king",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "crimson king",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "crimson king",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "emperor",
+	Callback = function()
+       	local args = {
+    [1] = "emperor",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "emperor",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "emperor",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+TutTab:AddButton({
+	Name = "Crown",
+	Callback = function()
+       	local args = {
+    [1] = "crown",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "crown",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "crown",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+TutTab:AddButton({
+	Name = "royal power",
+	Callback = function()
+       	local args = {
+    [1] = "royal power",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "royal power",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "royal power",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+
+
+--ajustes NunTab
+
+local NunTab = Window:MakeTab({
+	Name = "Shop Auras",--nombre de sección de izquierda
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = NunTab:AddSection({
+	Name = "normal and robux one" --nombre de la sección 
+})
+
+
+
+--botones NunTab
+
+
+NunTab:AddButton({
+	Name = "sad",
+	Callback = function()
+       	local args = {
+    [1] = "sad",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "sad",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "sad",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+NunTab:AddButton({
+	Name = "cycle",
+	Callback = function()
+       	local args = {
+    [1] = "cycle",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "cycle",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "cycle",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+NunTab:AddButton({
+	Name = "pure",
+	Callback = function()
+       	local args = {
+    [1] = "pure",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "pure",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "pure",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+NunTab:AddButton({
+	Name = "hax",
+	Callback = function()
+       	local args = {
+    [1] = "hax",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "hax",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "hax",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+NunTab:AddButton({
+	Name = "brilliant (robux)",
+	Callback = function()
+       	local args = {
+    [1] = "brilliant",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "brilliant",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "brilliant",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+NunTab:AddButton({
+	Name = "cosmic (robux)",
+	Callback = function()
+       	local args = {
+    [1] = "cosmic",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "cosmic",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "cosmic",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+NunTab:AddButton({
+	Name = "Jackpot (robux)",
+	Callback = function()
+       	local args = {
+    [1] = "jackpot",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "jackpot",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "jackpot",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+NunTab:AddButton({
+	Name = "??? (robux)",
+	Callback = function()
+       	local args = {
+    [1] = "???",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "???",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "???",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+NunTab:AddButton({
+	Name = "flex (craftable)",
+	Callback = function()
+       	local args = {
+    [1] = "flex",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "flex",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "flex",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+NunTab:AddButton({
+	Name = "null (craftable)",
+	Callback = function()
+       	local args = {
+    [1] = "null",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "null",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "null",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+NunTab:AddButton({
+	Name = "",
+	Callback = function()
+       	--borrar todo esto menos los espacios y poner el script deseado
+
+  	end    
+})
+
+
+
+--ajustes SusTab
+
+local SusTab = Window:MakeTab({
+	Name = "others auras",--nombre de sección de izquierda
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = SusTab:AddSection({
+	Name = "extras" --nombre de la sección 
+})
+
+
+--botones SusTab
+
+
+SusTab:AddButton({
+	Name = "the only",
+	Callback = function()
+       	local args = {
+    [1] = "the only",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "the only",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "the only",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+SusTab:AddButton({
+	Name = "challenge",
+	Callback = function()
+       	local args = {
+    [1] = "challenge",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "challenge",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "challenge",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+SusTab:AddButton({
+	Name = "bat",
+	Callback = function()
+       	local args = {
+    [1] = "bat",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "bat",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "bat",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+SusTab:AddButton({
+	Name = "pharaoh (don't use this if you love your acc)",
+	Callback = function()
+       local args = {
+    [1] = "pharaoh",
+    [2] = "EEOQRFIWGEW!@#$@(#WRUREFJIGERJNPWQDLP#(!!!!"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ADDAURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "pharaoh",
+    [2] = "1"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Equip_AURA"):FireServer(unpack(args))
+
+local args = {
+    [1] = "pharaoh",
+    [2] = "howdytherehowareyoudoinglolidk1243"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Set_ASYNC"):FireServer(unpack(args))
+
+
+  	end    
+})
+
+
+local DusTab = Window:MakeTab({
+	Name = "Coins",--nombre de sección de izquierda
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = DusTab:AddSection({
+	Name = "wait every 3 seconds or just spam it" --nombre de la sección 
+})
+
+
+--botones DusTab
+
+
+DusTab:AddButton({
+	Name = "100 Coins",
+	Callback = function()
+       	local args = {
+    [1] = 100
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Duplicate"):FireServer(unpack(args))
+
+  	end    
+})
+
+
+OrionLib:Init()
